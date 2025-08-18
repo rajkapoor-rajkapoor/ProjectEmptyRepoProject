@@ -8,6 +8,7 @@ packages:
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
 - name: aTest_Caching
+  version: "1.0"
   gitServerName: abhk
   gitUrl: https://github.com/rajkapoor-rajkapoor
   gitUsername: rajkapoor-rajkapoor
@@ -17,11 +18,31 @@ services:
   packages:
   - name: ProjectEmptyRepoProject
     version: "1.0"
+  - name: aTest_Caching
+    version: "1.0"
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2040
+    version: 11.1.0.0.2079
 - serviceName: project.projectemptyrepo.integrations:DAFTest
   packages:
   - name: ProjectEmptyRepoProject
+    version: "1.0"
+  - name: aTest_Caching
+    version: "1.0"
+- serviceName: project.projectemptyrepo.integrations:DAFUsingPackage
+  packages:
+  - name: ProjectEmptyRepoProject
+    version: "1.0"
+  - name: aTest_Caching
+    version: "1.0"
+- serviceName: BIC:TestVaraible
+  packages:
+  - name: aTest_Caching
+    version: "1.0"
+- serviceName: project.projectemptyrepo.integrations:DafCommit
+  packages:
+  - name: ProjectEmptyRepoProject
+    version: "1.0"
+  - name: aTest_Caching
     version: "1.0"
