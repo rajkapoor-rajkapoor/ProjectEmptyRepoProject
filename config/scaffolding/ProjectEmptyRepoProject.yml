@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/rajkapoor-rajkapoor
   gitUsername: rajkapoor-rajkapoor
   gitBranch: FeatureBranch
+- name: AbhiPackages
+  gitServerName: abhk
+  gitUrl: https://github.com/ak879753
+  gitUsername: rajkapoor-rajkapoor
+  gitBranch: main
 services:
 - serviceName: project.projectemptyrepo.integrations:Clone_DAFTest
   packages:
