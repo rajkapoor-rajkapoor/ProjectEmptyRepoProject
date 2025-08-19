@@ -6,7 +6,7 @@ packages:
   gitServerName: rajka
   gitUrl: https://github.com/rajkapoor-rajkapoor
   gitUsername: rajkapoor-rajkapoor
-  gitBranch: main
+  gitBranch: release/TestBranch
 - name: aTest_Caching
   version: "1.0"
   gitServerName: abhk
