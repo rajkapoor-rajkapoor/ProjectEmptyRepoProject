@@ -6,7 +6,7 @@ packages:
   gitServerName: rajka
   gitUrl: https://github.com/rajkapoor-rajkapoor
   gitUsername: rajkapoor-rajkapoor
-  gitBranch: main
+  gitBranch: TestingBranch
 services:
 - serviceName: project.projectemptyrepo.integrations:Clone_DAFTest
   packages:
